@@ -10,7 +10,7 @@ DB = DBHelper()
 def home():
     try:
         data = DB.get_all_inputs()
-    except Exception as e;
+    except Exception as e:
         print(e)
         data = None
 
